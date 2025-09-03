@@ -49,13 +49,13 @@ The final fine-tuned model achieved a **validation accuracy of 86%**. This demon
 The training history below shows the model's accuracy and loss over the full 30-epoch training run. The vertical green line indicates the start of the fine-tuning phase, where a dramatic improvement in validation accuracy and a significant reduction in overfitting can be observed.
 
 
-![Learning Curves](images/learning_curves.png)
+![Learning Curves](images/Learning_curves_1.png)
 
 ### Confusion Matrix
-The confusion matrix provides a detailed look at the model's performance on a class-by-class basis. The strong diagonal indicates a high number of correct predictions across all 38 classes. The off-diagonal entries show which diseases the model occasionally confuses, which are typically those with very similar visual symptoms (e.g., different types of blights or spots on the same plant species).
+The confusion matrix provides a detailed look at the model's performance on a class-by-class basis. The strong diagonal indicates a high number of correct predictions across all 38 classes. The off-diagonal entries show which diseases the model occasionally confuses, which are typically those with very similar visual symptoms.
 
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix_2.png)
 
 ## Technologies Used
 - Python
