@@ -1,0 +1,21 @@
+# Python Virtual Environment
+venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Temporary and Test folders from the dataset
+Temp/
+test/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secrets - Never upload API keys
+kaggle.json
+
+# Large files that will be handled by Git LFS
+# It's good practice to list them here too
+*.keras
+*.h5
